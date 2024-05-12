@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #1b1726;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(images/psss.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-txt h1 {
+    font-size: 60px;
+    color: #FFFFFF;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.header-txt span {
+    color: #FF5A2C;
+}
+
+.header-txt p {
+    font-size: 17px;
+    color: #e0e0e0;
+    margin-bottom: 30px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 30px;
+    border-bottom: none; /* Eliminar el borde inferior */
+}
+
+.logo {
+    color: #FF5A2C;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #FFFFFF;
+    font-size: 17px;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #FF5A2C;
+}
+
+.services {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.services h2 {
+    color: #FFFFFF;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.service {
+    background-color: #2A223A;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 17px;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #2A223A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.link ul {
+    display: flex;
+    justify-content: center;
+}
+
+.link ul li {
+    margin-right: 20px;
+}
+
+.link ul li a {
+    color: #FFFFFF;
+    font-size: 17px;
+    transition: color 0.3s ease;
+}
+
+.link ul li a:hover {
+    color: #FF5A2C;
+}
+
+
+
+
+
